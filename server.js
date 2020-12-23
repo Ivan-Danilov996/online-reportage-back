@@ -33,7 +33,6 @@ app.use(async (ctx, next) => {
         }
         ctx.response.status = 204; // No content
     }
-
 });
 
 const actions = []
